@@ -6,6 +6,11 @@
 :root {
     --color-blue: #518EA5; /* var(--color-blue) */
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 12px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -111,6 +116,10 @@ header {
     justify-content: space-around;
     align-items: center;
     color: #FFF;
+}
+.banner .slidearea-right img {
+    width: 300px;
+    height: auto;
 }
 .banner h1 {
     text-transform: uppercase;
